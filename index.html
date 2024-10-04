@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario_Estudiante</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        
+        <form  >
+            
+            <div class="fondo3">
+                <center>
+                    <h1 class="titulo"> <B>FORMULARIO DE ESTUDIANTES</B></h1>
+                    <input type="text" name="Numero" size="80" maxlength="80" class="c1">
+                    <p><span style="background-color:  rgb(8, 76, 78);"> Apellido Paterno &ensp;/&ensp; Apellido Materno&ensp;/&ensp; Nombre </span> </p> <br>
+
+                    <span style="background-color:  rgb(8, 76, 78);">Numero de Control: </span> <input type="text" name="Numero" value="" size="20" maxlength="8" class="c2">
+                    &ensp;&ensp;&ensp;&ensp; <span style="background-color:  rgb(8, 76, 78);"> Sexo: </span><input type="radio" name="sexo"><span style="background-color:  rgb(8, 76, 78);"> Masculino </span>
+                    <input type="radio" name="sexo"><span style="background-color:  rgb(8, 76, 78);"> Femenino </span>
+                    &ensp;&ensp;&ensp; <span style="background-color:  rgb(8, 76, 78);"> Edad:</span> <input type="number" name="edad" value="" size="10" class="c3"><br> <br><br>
+
+                    <span style="background-color: rgb(8, 76, 78);">Fecha de nacimiento:</span> <input type="date" name="fn" value="" class="c4">
+                    &ensp;&ensp;<span style="background-color:  rgb(8, 76, 78);"> Celular: </span><input type="text" name="cel" value="" maxlength="10" class="c5"><br> <br><br>
+
+                    <textarea name="dir" rows="2" cols="75" class="c6"></textarea>
+                
+                    <p><span style="background-color:  rgb(8, 76, 78);"> Direccion</span></p>
+
+                    <span style="background-color:  rgb(8, 76, 78);"> Correo Electronico:</span> <input type="text" name="ce" value="" maxlength="30" size="30" placeholder="@gmail.com" class="c7">
+                    &ensp;&ensp;
+
+                    <span style="background-color:  rgb(8, 76, 78);"> Periodo Escolar:</span>
+                    <select name="menu">
+                        <option value="1" >Selecciona tu Periodo</option>
+                        <option value="2">AGO.DIC 2021</option>
+                        <option value="3">ENE-JUN 2022</option>
+                        <option value="4">AGO-DIC 2022</option>
+                        <option value="5">ENE-JUN 2023</option>
+                        <option value="4">AGO-DIC 2024</option>
+                        <option value="5">ENE-JUN 2024</option>
+                        <option value="5">AGO-DIC 2024</option>
+                    </select> <br> <br><br>
+
+
+                    <span style="background-color:  rgb(8, 76, 78);"> Carrera</span>
+                    <select name="menu">
+                        <option value="1" class="op1">Selecciona tu Carrera</option>
+                        <option value="2">Ingenieria en Sistemas Computacionales</option>
+                        <option value="3">Ingenieria en Gestion Empresarial</option>
+                        <option value="4">Ingenieria Agronomia</option>
+                        <option value="5">Licenciatura en Biologia</option>
+                    </select> <br> <br><br>
+                    <textarea name="texto" rows="7" cols="50" placeholder="Comentarios o preguntas"></textarea><br> <br><br>
+                    
+                    <button onclick="alert ('ENVIADO EXITOSAMENTE ¡GRACIAS!')" type="submit">
+                        <img src="img/enviar.png" alt="imagen" width="60" height="60" style="vertical-align: middle">Enviar
+                    </button>
+                    &ensp;&ensp;&ensp;
+                    <button type="reset">
+                        <img src="img/eliminar.png" alt="imagen" width="60" height="60" style="vertical-align: middle">
+                        Borrar 
+                    </button>
+                </center>
+            </div>
+        </form>
+        
+    </body>
+</html>

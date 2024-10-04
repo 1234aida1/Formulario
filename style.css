@@ -1,0 +1,55 @@
+body{
+    background-image:url(img/ithjpg.jpg);
+    font-family:'Lucida Sans';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.fondo3{
+    margin: 0px;
+    width: 1000px;
+    height: 650px;
+    background-color:rgba(255, 255, 255, 0.4);
+}
+form{
+    margin: 0px 200px 0px 200px;
+    background-image: url(img/ith.jpg);
+    width: 1000px;
+    height: 650px;
+   
+    
+}
+.titulo{
+    padding:20px 0px 0px 0px;
+    font-style:inherit;
+   font-family:'Bodoni MT';
+   color:hsla(300, 94%, 54%, 0.822);
+}
+
+.c1{
+    text-align: center;
+}
+.c2{
+    text-align: center;
+}
+.c3{
+    text-align: center;
+}
+.c4{
+    text-align: center;
+}
+.c5{
+    text-align: center;
+}
+.c6{
+    text-align: center;
+}
+.c7{
+    text-align:right;
+}
+
+.op1{
+    text-align: center;
+}
+
